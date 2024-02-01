@@ -1,0 +1,18 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#addVehicleForm, #parkedVehicles {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

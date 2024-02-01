@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Parking Management System</title>
+    <link rel="stylesheet" href="parking.css">
+</head>
+<body>
+    <h1>Vehicle Parking Management System</h1>
+    <div id="addVehicleForm">
+        <h2>Add Vehicle</h2>
+        <input type="text" id="vehicleNumber" placeholder="Enter Vehicle Number">
+        <button onclick="addVehicle()">Add Vehicle</button>
+    </div>
+    <div id="parkedVehicles">
+        <h2>Parked Vehicles</h2>
+        <ul id="vehicleList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
